@@ -27,7 +27,7 @@ int main() {
     if (index > 0 && index <= factors.size()) {
         cout << "The " << index << "th factor is: " << factors[index - 1] << endl;
     } else {
-        cout << "Invalid index." << endl;
+        cout << "Invalid index" << endl;
     }
 
     return 0;
