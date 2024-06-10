@@ -25,7 +25,7 @@ int main() {
     vector<int> factors = ith_factor(n);
 
     if (index > 0 && index <= factors.size()) {
-        cout << "The " << index << "th factor is: " << factors[index - 1] << endl;
+        cout << "The element at " << index << "th factor is: " << factors[index - 1] << endl;
     } else {
         cout << "Invalid index" << endl;
     }
